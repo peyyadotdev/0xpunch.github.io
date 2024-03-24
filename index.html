@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Punch - Making web3 accessible for everyday people and businesses.</title>
-        <meta name="description" content="Punch Super Wallet ">
+        <meta name="description" content="Punch Smart Wallet ">
         <meta charset="UTF-8">
         <meta name="theme-color" content="#FFA299">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,50 +39,191 @@
             }}();
         </script>
     </head>
-    <body>
-        <!-- NewPage Section -->
-        <div class="w-full h-screen bg-punch-400 flex flex-col justify-center items-center">
-            <div class="max-w-md p-6 flex flex-col justify-center items-center gap-2.5">
-                <!-- Responsive SVG Container -->
-                <div class="w-full max-w-md mx-auto">
-                    <svg viewBox="0 0 640 178" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" class="w-full h-auto">
-                        <path d="M61.3275 1.08417C54.1676 1.72273 46.928 4.67606 40.3066 9.66478C36.9959 12.1591 33.3262 15.6912 15.9152 33.1517L0.378906 48.6966L37.335 112.832C57.6578 148.112 74.311 177.007 74.3509 177.066C74.4506 177.166 99.1411 152.482 99.1411 152.263C99.1411 152.163 78.7585 116.623 77.7214 114.967C77.5419 114.667 78.7983 113.311 86.0978 105.987C90.8046 101.238 95.3518 96.5285 96.1695 95.5507C104.905 84.9945 109.392 75.2565 111.247 62.8246C111.786 59.1529 111.746 51.0113 111.147 47.2598C109.851 38.9386 106.8 31.0365 102.173 24.0123C99.6397 20.1411 97.5057 17.527 94.1751 14.2344C84.4225 4.53636 73.1742 0.0265638 61.3275 1.08417ZM62.0455 35.666C65.3761 36.2647 68.2879 37.9608 71.4191 41.1536C75.5475 45.3441 78.1003 50.1333 79.3368 55.9402C79.8354 58.3148 79.8354 63.7625 79.3368 66.0773C78.5989 69.4696 77.5219 72.0039 75.5674 74.9572C74.6101 76.394 73.0545 78.0901 68.4076 82.7795C65.1368 86.0721 62.4443 88.7062 62.3845 88.6662C62.1252 88.327 40.1072 49.9537 40.1072 49.814C40.1072 49.7143 42.5603 47.1999 45.5519 44.2466C51.3356 38.4996 52.7317 37.3821 55.4041 36.3445C57.7775 35.4266 59.6323 35.227 62.0455 35.666Z" fill="black"/>
-                        <path d="M445.667 13.4562C437.888 14.1147 430.09 16.2698 423.449 19.6023C412.859 24.9303 403.625 32.8723 395.667 43.4684C384.439 58.4745 376.182 80.0058 373.888 100.24C372.991 108.122 372.951 117.202 373.749 122.47C374.586 127.798 376.062 132.707 378.296 137.356C382.704 146.615 390.382 153.3 400.494 156.712C409.987 159.905 423.708 160.524 435.695 158.289C446.085 156.373 455.299 152.302 462.719 146.316C468.582 141.607 474.466 134.523 478.873 126.88C482.343 120.873 488.127 107.564 487.389 107.324C486.611 107.065 454.482 100.639 454.402 100.719C454.342 100.779 453.863 101.916 453.325 103.273C451.889 106.825 448.798 112.971 447.142 115.506C441.698 123.887 435.695 128.337 428.076 129.674C426.102 130.013 422.512 130.053 420.637 129.773C414.634 128.816 410.765 125.283 409.169 119.277C407.933 114.667 407.973 106.426 409.289 98.6437C411.981 82.56 418.523 66.0174 426.341 55.601C429.572 51.2907 434.139 47.1401 437.729 45.2244C443.094 42.3709 449.755 42.0516 454.721 44.4063C456.676 45.3242 458.969 47.7188 460.066 49.9537C462.021 53.9247 462.599 57.5366 462.619 65.6383C462.619 69.4297 462.679 71.4252 462.818 71.3853C462.938 71.3454 470.696 69.8288 480.07 67.993C489.443 66.1771 497.162 64.6405 497.222 64.5807C497.281 64.5408 497.321 61.7271 497.321 58.3747C497.301 52.0091 497.102 49.5546 496.204 45.2045C494.549 37.0828 491.099 30.4378 485.754 25.1099C482.902 22.2563 480.509 20.5202 476.879 18.6445C469.599 14.9129 461.502 13.1968 451.45 13.2567C449.376 13.2766 446.763 13.3764 445.667 13.4562Z" fill="black"/>
-                        <path d="M144.713 15.0725C144.234 16.4693 119.604 108.441 119.284 109.978C118.207 115.286 117.809 121.911 118.267 126.401C120.182 144.799 132.727 156.253 154.007 159.007C158.255 159.546 164.218 159.746 168.885 159.526C179.954 158.947 188.111 157.052 195.889 153.2C209.73 146.336 218.725 134.183 225.805 112.812C226.623 110.297 232.007 90.6617 239.726 61.8867C246.646 36.1249 252.31 14.9927 252.31 14.9328C252.31 14.8729 244.413 14.833 234.76 14.833H217.229L217.03 15.5714C215.554 21.1787 191.761 109.699 191.461 110.676C188.929 119.257 183.663 126.042 177.58 128.576C174.469 129.873 173.432 130.053 168.945 130.053C165.355 130.053 164.657 129.993 163.261 129.614C158.275 128.257 155.183 125.084 154.087 120.195C153.628 118.219 153.628 114.328 154.067 111.774C154.326 110.377 178.977 17.926 179.834 15.1723C179.934 14.853 179.016 14.833 162.363 14.833C148.502 14.833 144.773 14.8929 144.713 15.0725Z" fill="black"/>
-                        <path d="M269.781 15.1724C269.442 16.3298 231.569 157.571 231.569 157.73C231.569 157.83 237.751 157.89 247.364 157.87L263.14 157.81L275.246 112.772L287.332 67.7336L296.885 111.974C302.13 136.299 306.498 156.593 306.598 157.072L306.797 157.91L324.268 157.87L341.719 157.81L360.905 86.3715L380.071 14.9329L364.415 14.873C354.802 14.8531 348.719 14.913 348.659 15.0127C348.6 15.1125 343.075 35.5862 336.394 60.5099C329.693 85.4336 324.188 105.827 324.128 105.827C324.049 105.827 319.701 85.5134 314.456 60.6695C309.19 35.8456 304.863 15.3719 304.803 15.1724C304.723 14.8531 303.726 14.8331 287.312 14.8331C270.898 14.8331 269.881 14.8531 269.781 15.1724Z" fill="black"/>
-                        <path d="M509.906 86.132C499.375 125.323 490.74 157.531 490.68 157.65C490.62 157.85 494.19 157.91 508.171 157.91H525.721L525.941 157.152C526.06 156.752 529.59 143.622 533.799 127.977L541.417 99.5417L561.7 99.4818C572.849 99.4619 581.983 99.5018 581.983 99.5617C581.983 99.6215 578.533 112.532 574.325 128.237C570.097 143.961 566.586 157.052 566.527 157.351L566.387 157.91H583.858C593.471 157.91 601.329 157.87 601.329 157.81C601.329 157.75 609.945 125.623 620.475 86.3914C631.005 47.1401 639.621 14.9928 639.621 14.9329C639.621 14.873 631.783 14.8331 622.19 14.8331H604.759L604.4 16.1701C604.201 16.9284 600.89 29.2406 597.041 43.5682L590.06 69.6093L569.758 69.6692C558.609 69.6892 549.475 69.6692 549.475 69.6293C549.475 69.5894 552.705 57.4967 556.654 42.77C560.623 28.0632 563.894 15.7511 563.974 15.4118L564.093 14.8331H546.563H529.032L509.906 86.132Z" fill="black"/>
-                    </svg>
+    <body class="font-sans antialiased bg-punch-400 text-gray-900">
+      <div class="">
+                
+            <div>
+              <header class="absolute inset-x-0 top-0 z-50"><!-- Mobile menu, show/hide based on menu open state.--><div class="lg:hidden" role="dialog" aria-modal="true">
+                  <!-- Background backdrop, show/hide based on slide-over state.-->
+                  <div class="fixed inset-0 z-50"></div>
+                  <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                    <div class="flex items-center justify-between">
+                      <a class="-m-1.5 p-1.5" href="#">
+                        <span class="sr-only">Your Company</span>
+                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600" alt=""></a>
+                      <button class="-m-2.5 rounded-md p-2.5 text-gray-700" type="button">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></button>
+                    </div>
+                    <div class="mt-6 flow-root">
+                      <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+            <a class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="#">Product</a><a class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="#">Features</a><a class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="#">Marketplace</a><a class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="#">Company</a>
+            </div>
+                        <div class="py-6"><a class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="#">Log in</a></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="text-center text-black text-lg font-semibold uppercase">helping Web3 brands monetize beyond the crypto niche.</div>
-                <!-- Waitlist Button -->
-                </div><button type="button" class="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900">Don't click me!</button>
-                <!-- Social Links: Centered and with responsive spacing -->
-                <div class="flex justify-center items-center gap-3 pt-6 pb-6">
-                    <!-- Social Links -->
-                    <a href="https://www.linkedin.com/company/0xpunch/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"></path></svg></a>
-                    <a href="https://discord.gg/zu9QnpuA8W" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32"><path d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"></path></svg></a>
-                    <a href="https://twitter.com/intent/user?screen_name=0xpunch" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z"></path></svg></a>
-                    <a href="https://medium.com/0xpunch" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M4.00098 3H20.001C20.5533 3 21.001 3.44772 21.001 4V20C21.001 20.5523 20.5533 21 20.001 21H4.00098C3.44869 21 3.00098 20.5523 3.00098 20V4C3.00098 3.44772 3.44869 3 4.00098 3ZM17.3019 15.9403C17.2014 15.8901 17.1512 15.7394 17.1512 15.639V8.00643C17.1512 7.906 17.2014 7.75536 17.3019 7.65493L18.256 6.55021V6.5H14.8413L12.2802 12.9776L9.36765 6.5H5.85249V6.55021L6.75639 7.80557C6.95726 8.00643 7.00747 8.30771 7.00747 8.55879V14.0824C7.05769 14.3836 7.00747 14.7351 6.85682 15.0364L5.50098 16.8944V16.9446H9.11657V16.8944L7.76072 15.0866C7.61007 14.7854 7.55985 14.4841 7.61007 14.1326V9.11114C7.66029 9.21157 7.7105 9.21157 7.76072 9.41243L11.1754 17.045H11.2257L14.54 8.75964C14.4897 9.06093 14.4897 9.41243 14.4897 9.6635V15.5888C14.4897 15.7394 14.4395 15.8399 14.3391 15.9403L13.3348 16.8944V16.9446H18.256V16.8944L17.3019 15.9403Z"></path></svg></a>
+              </header><div class="relative isolate px-6 pt-14 lg:px-8 body">
+                <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 items-center">
+                  
+                  <div class="p-6 flex flex-col items-center gap-2.5">
+                    <!-- Responsive SVG Container -->
+                    <div class="w-full max-w-md mx-auto">
+                      <svg viewbox="0 0 640 178" fill="none" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid meet" class="w-full h-auto"><path d="M61.3275 1.08417C54.1676 1.72273 46.928 4.67606 40.3066 9.66478C36.9959 12.1591 33.3262 15.6912 15.9152 33.1517L0.378906 48.6966L37.335 112.832C57.6578 148.112 74.311 177.007 74.3509 177.066C74.4506 177.166 99.1411 152.482 99.1411 152.263C99.1411 152.163 78.7585 116.623 77.7214 114.967C77.5419 114.667 78.7983 113.311 86.0978 105.987C90.8046 101.238 95.3518 96.5285 96.1695 95.5507C104.905 84.9945 109.392 75.2565 111.247 62.8246C111.786 59.1529 111.746 51.0113 111.147 47.2598C109.851 38.9386 106.8 31.0365 102.173 24.0123C99.6397 20.1411 97.5057 17.527 94.1751 14.2344C84.4225 4.53636 73.1742 0.0265638 61.3275 1.08417ZM62.0455 35.666C65.3761 36.2647 68.2879 37.9608 71.4191 41.1536C75.5475 45.3441 78.1003 50.1333 79.3368 55.9402C79.8354 58.3148 79.8354 63.7625 79.3368 66.0773C78.5989 69.4696 77.5219 72.0039 75.5674 74.9572C74.6101 76.394 73.0545 78.0901 68.4076 82.7795C65.1368 86.0721 62.4443 88.7062 62.3845 88.6662C62.1252 88.327 40.1072 49.9537 40.1072 49.814C40.1072 49.7143 42.5603 47.1999 45.5519 44.2466C51.3356 38.4996 52.7317 37.3821 55.4041 36.3445C57.7775 35.4266 59.6323 35.227 62.0455 35.666Z" fill="black"></path><path d="M445.667 13.4562C437.888 14.1147 430.09 16.2698 423.449 19.6023C412.859 24.9303 403.625 32.8723 395.667 43.4684C384.439 58.4745 376.182 80.0058 373.888 100.24C372.991 108.122 372.951 117.202 373.749 122.47C374.586 127.798 376.062 132.707 378.296 137.356C382.704 146.615 390.382 153.3 400.494 156.712C409.987 159.905 423.708 160.524 435.695 158.289C446.085 156.373 455.299 152.302 462.719 146.316C468.582 141.607 474.466 134.523 478.873 126.88C482.343 120.873 488.127 107.564 487.389 107.324C486.611 107.065 454.482 100.639 454.402 100.719C454.342 100.779 453.863 101.916 453.325 103.273C451.889 106.825 448.798 112.971 447.142 115.506C441.698 123.887 435.695 128.337 428.076 129.674C426.102 130.013 422.512 130.053 420.637 129.773C414.634 128.816 410.765 125.283 409.169 119.277C407.933 114.667 407.973 106.426 409.289 98.6437C411.981 82.56 418.523 66.0174 426.341 55.601C429.572 51.2907 434.139 47.1401 437.729 45.2244C443.094 42.3709 449.755 42.0516 454.721 44.4063C456.676 45.3242 458.969 47.7188 460.066 49.9537C462.021 53.9247 462.599 57.5366 462.619 65.6383C462.619 69.4297 462.679 71.4252 462.818 71.3853C462.938 71.3454 470.696 69.8288 480.07 67.993C489.443 66.1771 497.162 64.6405 497.222 64.5807C497.281 64.5408 497.321 61.7271 497.321 58.3747C497.301 52.0091 497.102 49.5546 496.204 45.2045C494.549 37.0828 491.099 30.4378 485.754 25.1099C482.902 22.2563 480.509 20.5202 476.879 18.6445C469.599 14.9129 461.502 13.1968 451.45 13.2567C449.376 13.2766 446.763 13.3764 445.667 13.4562Z" fill="black"></path><path d="M144.713 15.0725C144.234 16.4693 119.604 108.441 119.284 109.978C118.207 115.286 117.809 121.911 118.267 126.401C120.182 144.799 132.727 156.253 154.007 159.007C158.255 159.546 164.218 159.746 168.885 159.526C179.954 158.947 188.111 157.052 195.889 153.2C209.73 146.336 218.725 134.183 225.805 112.812C226.623 110.297 232.007 90.6617 239.726 61.8867C246.646 36.1249 252.31 14.9927 252.31 14.9328C252.31 14.8729 244.413 14.833 234.76 14.833H217.229L217.03 15.5714C215.554 21.1787 191.761 109.699 191.461 110.676C188.929 119.257 183.663 126.042 177.58 128.576C174.469 129.873 173.432 130.053 168.945 130.053C165.355 130.053 164.657 129.993 163.261 129.614C158.275 128.257 155.183 125.084 154.087 120.195C153.628 118.219 153.628 114.328 154.067 111.774C154.326 110.377 178.977 17.926 179.834 15.1723C179.934 14.853 179.016 14.833 162.363 14.833C148.502 14.833 144.773 14.8929 144.713 15.0725Z" fill="black"></path><path d="M269.781 15.1724C269.442 16.3298 231.569 157.571 231.569 157.73C231.569 157.83 237.751 157.89 247.364 157.87L263.14 157.81L275.246 112.772L287.332 67.7336L296.885 111.974C302.13 136.299 306.498 156.593 306.598 157.072L306.797 157.91L324.268 157.87L341.719 157.81L360.905 86.3715L380.071 14.9329L364.415 14.873C354.802 14.8531 348.719 14.913 348.659 15.0127C348.6 15.1125 343.075 35.5862 336.394 60.5099C329.693 85.4336 324.188 105.827 324.128 105.827C324.049 105.827 319.701 85.5134 314.456 60.6695C309.19 35.8456 304.863 15.3719 304.803 15.1724C304.723 14.8531 303.726 14.8331 287.312 14.8331C270.898 14.8331 269.881 14.8531 269.781 15.1724Z" fill="black"></path><path d="M509.906 86.132C499.375 125.323 490.74 157.531 490.68 157.65C490.62 157.85 494.19 157.91 508.171 157.91H525.721L525.941 157.152C526.06 156.752 529.59 143.622 533.799 127.977L541.417 99.5417L561.7 99.4818C572.849 99.4619 581.983 99.5018 581.983 99.5617C581.983 99.6215 578.533 112.532 574.325 128.237C570.097 143.961 566.586 157.052 566.527 157.351L566.387 157.91H583.858C593.471 157.91 601.329 157.87 601.329 157.81C601.329 157.75 609.945 125.623 620.475 86.3914C631.005 47.1401 639.621 14.9928 639.621 14.9329C639.621 14.873 631.783 14.8331 622.19 14.8331H604.759L604.4 16.1701C604.201 16.9284 600.89 29.2406 597.041 43.5682L590.06 69.6093L569.758 69.6692C558.609 69.6892 549.475 69.6692 549.475 69.6293C549.475 69.5894 552.705 57.4967 556.654 42.77C560.623 28.0632 563.894 15.7511 563.974 15.4118L564.093 14.8331H546.563H529.032L509.906 86.132Z" fill="black"></path></svg>
+            </div>
+                    <h3 class="text-center text-black text-lg font-semibold uppercase py-2">HELPING WEB3 BRANDS MONETIZE BEYOND THE CRYPTO NICHE</h3>
+                    <!-- Waitlist Button -->
+                    <button type="button" class="rounded-md bg-black text-sm font-semibold text-white shadow-sm hover:bg-gray-900 px-4 py-3">Don't click me!</button>
+                    <!-- Social Links: Centered and with responsive spacing -->
+                    <div class="flex justify-center items-center gap-3 pt-6 pb-6">
+                      <!-- Social Links -->
+                      <a href="https://www.linkedin.com/company/0xpunch/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="32" height="32"><path d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"></path></svg></a>
+                      <a href="https://discord.gg/zu9QnpuA8W" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" height="32"><path d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"></path></svg></a>
+                      <a href="https://twitter.com/intent/user?screen_name=0xpunch" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24"><path d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z"></path></svg></a>
+                      <a href="https://medium.com/0xpunch" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="32" height="32"><path d="M4.00098 3H20.001C20.5533 3 21.001 3.44772 21.001 4V20C21.001 20.5523 20.5533 21 20.001 21H4.00098C3.44869 21 3.00098 20.5523 3.00098 20V4C3.00098 3.44772 3.44869 3 4.00098 3ZM17.3019 15.9403C17.2014 15.8901 17.1512 15.7394 17.1512 15.639V8.00643C17.1512 7.906 17.2014 7.75536 17.3019 7.65493L18.256 6.55021V6.5H14.8413L12.2802 12.9776L9.36765 6.5H5.85249V6.55021L6.75639 7.80557C6.95726 8.00643 7.00747 8.30771 7.00747 8.55879V14.0824C7.05769 14.3836 7.00747 14.7351 6.85682 15.0364L5.50098 16.8944V16.9446H9.11657V16.8944L7.76072 15.0866C7.61007 14.7854 7.55985 14.4841 7.61007 14.1326V9.11114C7.66029 9.21157 7.7105 9.21157 7.76072 9.41243L11.1754 17.045H11.2257L14.54 8.75964C14.4897 9.06093 14.4897 9.41243 14.4897 9.6635V15.5888C14.4897 15.7394 14.4395 15.8399 14.3391 15.9403L13.3348 16.8944V16.9446H18.256V16.8944L17.3019 15.9403Z"></path></svg></a>
+                    </div>
+                  </div>
                 </div>
-        </div>
+                <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+                  <div class="opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="assets/Icon.png" alt="" class="w-auto h-10"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;">Next generation smart wallet</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="true">With MPC-technology the user can enjoy our non-custodial wallet without the hassle of complex seed phrase</p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="assets/image-78.png" object-contain max-w-xs class="">
+            </div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="https://uploads-ssl.webflow.com/65fe747f6f3d12aced01ffff/65fe7d8a22116c7ecc884754_image%2082.png" alt="" class="w-auto h-10 h-10"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;">Send fiat money on–chain</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="true">Send money to anyone in the world instantly</p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="assets/image-65.png" object-contain="" max-w-xs="" class="">
+            </div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="https://uploads-ssl.webflow.com/65fe747f6f3d12aced01ffff/65fe7d88639572d3836c2fdf_Icon-1.png" alt="" class="w-auto h-12"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;">Seamless on/off-ramp</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="true">Top up your wallet through your bank account</p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="https://uploads-ssl.webflow.com/65fe747f6f3d12aced01ffff/65fe7dcda468bd6cc64a3add_Group%2050.png" object-contain="" max-w-xs="" class="overflow-visible"></div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="assets/Vector-1.png" alt="" class="w-auto h-10"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;" contenteditable="false">NFT Gallery</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="false">
+                        <span data-metadata="<!--(figmeta)eyJmaWxlS2V5IjoiVnhpZnhTOVBYdnBFMUJuTGFWS2p1UyIsInBhc3RlSUQiOjE1MTU0MDgyMjUsImRhdGFUeXBlIjoic2NlbmUifQo=(/figmeta)-->"></span>
+      
+                        <span style="white-space-collapse: preserve;">Collect, showcase and trade your digital assets and NFT’s</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="assets/image-67.png" object-contain="" max-w-xs="" class=""></div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="assets/Icon-2.png" alt="" class="w-auto h-10"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;">Biometric authentication</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="false">
+                        <span style="white-space-collapse: preserve;" contenteditable="false">Connect and sign transactions on the blockchain through biometrics</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="assets/image-81.png" object-contain="" max-w-xs="" class="">
+            </div>
+                </div>
+              </div>
+            </div>
+                
+            <div class="py-24 sm:py-32 h-full isolate body">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto items-center grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:grid-cols-2 max-w-4xl">
+                  <div class="flex">
+                    <img src="assets/Vector.png" alt="" class="w-auto h-10"><div class="ml-4 max-w-xs">
+                      <h4 class="text-lg font-semibold" contenteditable="true">
+                        <span style="white-space-collapse: preserve;">Effortless signup</span>
+                      </h4>
+                      <p class="max-w-sm" contenteditable="false">
+                        <span style="white-space-collapse: preserve;" contenteditable="false">Simplify onboarding experience and boost conversion with an embedded wallet</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lg:pr-4">
+                    <img src="assets/Group-51.png" object-contain="" max-w-xs="" class="overflow-visible height"></div>
+                </div>
+              </div>
             </div>
         </div>
-        <!-- Flywheel.js -->
-        <script>
-            "use strict";!function(){window.flywheel=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"].reduce((function(e,t){return e[t]=function(){for(var e,i=[],n=0;n<arguments.length;n++)i[n]=arguments[n];(e=window.flywheel.preLibInitBuffer)[t]||(e[t]=[]),window.flywheel.preLibInitBuffer[t].push(i)},e}),{writeKey:"28a412a2-7a06-4808-bb4d-ff25a277a267",apiHost:"theflywheel.app",snippetVersion:"0.0.1",preLibInitBuffer:{}});var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.theflywheel.app/flywheel.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode&&t.parentNode.insertBefore(e,t),window.flywheel.page()}();
-        </script>
-          
-        <!-- Intercom -->
-        <script>
-            window.intercomSettings = {
-              api_base: "https://api-iam.intercom.io",
-              app_id: "a2aicd12"
-            };
-          </script>
-          <script>
-          // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/a2aicd12'
-          (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/a2aicd12';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-          </script>
-    </body>
+              <!-- Flywheel.js -->
+              <script>
+                "use strict";!function(){window.flywheel=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"].reduce((function(e,t){return e[t]=function(){for(var e,i=[],n=0;n<arguments.length;n++)i[n]=arguments[n];(e=window.flywheel.preLibInitBuffer)[t]||(e[t]=[]),window.flywheel.preLibInitBuffer[t].push(i)},e}),{writeKey:"28a412a2-7a06-4808-bb4d-ff25a277a267",apiHost:"theflywheel.app",snippetVersion:"0.0.1",preLibInitBuffer:{}});var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.theflywheel.app/flywheel.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode&&t.parentNode.insertBefore(e,t),window.flywheel.page()}();
+            </script>
+              
+            <!-- Intercom -->
+            <script>
+                window.intercomSettings = {
+                  api_base: "https://api-iam.intercom.io",
+                  app_id: "a2aicd12"
+                };
+              </script>
+              <script>
+              // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/a2aicd12'
+              (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/a2aicd12';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+              </script>
+      </body>
 </html>
