@@ -42,7 +42,7 @@
   <script>!function () {
       var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
         analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { if (window.analytics.initialized) return window.analytics[e].apply(window.analytics, arguments); var i = Array.prototype.slice.call(arguments); i.unshift(e); analytics.push(i); return analytics } }; for (var i = 0; i < analytics.methods.length; i++) { var key = analytics.methods[i]; analytics[key] = analytics.factory(key) } analytics.load = function (key, i) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://journy.getpunch.io/frontend/analytics.js/v1/" + key + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = i }; analytics._writeKey = "01HABZ47RKB59120919Y0CJZPS"; analytics._cdn = "https://journy.getpunch.io/frontend"; analytics.SNIPPET_VERSION = "4.16.1";
-        analytics.load("01HABZ47RKB59120919Y0CJZPS");
+        analytics.load("01JGB8XSKP6DB88N8JVDKKM2FX");
         analytics.page();
       }
     }();
@@ -66,13 +66,16 @@
     <div class="relative isolate px-6 pt-14 lg:px-8">
       <div class="mx-auto max-w-2xl py-32 sm:py-24 lg:py-24">
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Revolutionizing Payments for Traditional B2B Industries</h1>
-          <p class="mt-6 text-justify text-lg leading-8 text-gray-900">Payments are seamless in SaaS, marketplaces, media, film, music, and even between individuals. Yet, traditional B2B sectors like Primary Industry, Construction & Real Estate, and Transport & Logistics still lack effective solutions. We’re elevating payments and invoicing with advanced AR/AP automation, intelligent escrow services, and enterprise-grade project and progress payments, all backed by robust governance, policies, security, and risk management.</p>
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Ripping Up the Rulebook for B2B Payments</h1>
+          <p class="mt-6 text-justify text-lg leading-8 text-gray-900">SaaS, marketplaces, and media nailed payments ages ago—so why is B2B still stuck in the stone age? Construction, Logistics, Real Estate—you deserve better. <b>We’re tearing down the clunky systems, the delays, and the headaches.</b></p>
+          <p class="mt-6 text-justify text-lg leading-8 text-gray-900">Think AR/AP automation that <i>actually works</i>, escrow that’s <i>intelligent</i>, and project payments so smooth they feel like magic. Now add 24/7 availability, cross-border capabilities with zero friction, transactions so dirt cheap they’re almost funny, and programmable money ready to work the way <i>you</i> need — not the banks.
+            <p class="mt-6 text-justify text-lg leading-8 text-gray-900">This isn’t evolution—it’s a revolution. <b>Stay tuned</b>>.
+          </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <!-- Calendly https://calendly.com/0xpunch/45min link widget begin -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/0xpunch/discovery-call'});return false;" class="inline-block rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Schedule a Discovery Call</a>
+            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/0xpunch/discovery-call'});return false;" class="inline-block rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Ready to leave the stone age behind? Let’s talk.</a>
             <!-- Calendly https://calendly.com/0xpunch/45min link widget end -->
           </div>
         </div>
@@ -83,18 +86,6 @@
   <!-- Flywheel.js - PLG -->
   <script>
     "use strict"; !function () { window.flywheel = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"].reduce((function (e, t) { return e[t] = function () { for (var e, i = [], n = 0; n < arguments.length; n++)i[n] = arguments[n]; (e = window.flywheel.preLibInitBuffer)[t] || (e[t] = []), window.flywheel.preLibInitBuffer[t].push(i) }, e }), { writeKey: "28a412a2-7a06-4808-bb4d-ff25a277a267", apiHost: "theflywheel.app", snippetVersion: "0.0.1", preLibInitBuffer: {} }); var e = document.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "https://cdn.theflywheel.app/flywheel.min.js"; var t = document.getElementsByTagName("script")[0]; t.parentNode && t.parentNode.insertBefore(e, t), window.flywheel.page() }();
-  </script>
-
-  <!-- Intercom - Customer Success-->
-  <script>
-    window.intercomSettings = {
-      api_base: "https://api-iam.intercom.io",
-      app_id: "a2aicd12"
-    };
-  </script>
-  <script>
-    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/a2aicd12'
-    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/a2aicd12'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
   </script>
 </body>
 
