@@ -1,19 +1,8 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 2560 l0 -2560 505 0 504 0 3 1373 c3 1278 5 1378 22 1467 63 332
-219 615 477 865 183 178 355 284 579 359 160 54 268 69 465 69 428 -1 758
--133 1059 -423 272 -262 427 -563 477 -920 15 -111 15 -354 0 -455 -89 -590
--503 -1092 -1051 -1278 -160 -55 -268 -71 -460 -71 -436 2 -769 137 -1094 445
-l-86 81 0 -756 0 -756 1860 0 1860 0 0 2560 0 2560 -2560 0 -2560 0 0 -2560z"/>
-<path d="M1446 2841 c-82 -361 -6 -730 209 -1011 63 -82 220 -229 303 -284
-306 -202 757 -220 1107 -43 90 45 212 137 293 219 l63 65 -198 114 c-109 62
--549 315 -977 561 -429 246 -781 448 -782 448 -1 0 -9 -31 -18 -69z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" baseProfile="tiny" version="1.2" viewBox="0 0 256 256">
+  <rect y="0" width="256" height="256"/>
+  <g>
+    <path d="M38,78.5L128,29l90,49.5v99l-90,49.5-90-49.5v-99Z" fill="none" stroke="#fff" stroke-miterlimit="42.7" stroke-width="18"/>
+    <path d="M128,128l90-49.5M128,128l-90-49.5M128,128v99M128,128l-90,49.5M128,128l90,49.5M128,128V29" fill="none" stroke="#fff" stroke-miterlimit="42.7" stroke-width="18"/>
+  </g>
 </svg>

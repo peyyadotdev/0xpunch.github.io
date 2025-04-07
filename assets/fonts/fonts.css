@@ -1,0 +1,66 @@
+/* fonts.css */
+
+/* ------------------------------
+   ANYBODY (Variable Google Font)
+------------------------------ */
+@font-face {
+    font-family: 'Anybody Variable';
+    src: url('anybody/Anybody-VariableFont.ttf') format('truetype');
+    font-weight: 600 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* ------------------------------
+     SÖHNE – UI & BODY (Regular + Medium + Semibold + Bold)
+  ------------------------------ */
+  @font-face {
+    font-family: 'Söhne';
+    src: url('soehne/Soehne-Buch.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Söhne';
+    src: url('soehne/Soehne-Buch-Kursiv.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Söhne';
+    src: url('soehne/Soehne-Kräftig.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Söhne';
+    src: url('soehne/Soehne-Kräftig-Kursiv.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  /* ------------------------------
+     SÖHNE MONO – Code & System Text
+  ------------------------------ */
+  @font-face {
+    font-family: 'Söhne Mono';
+    src: url('soehne-mono/SoehneMono-Buch.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Söhne Mono';
+    src: url('soehne-mono/SoehneMono-Buch-Kursiv.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }

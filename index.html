@@ -10,11 +10,38 @@
   <meta name="theme-color" content="#ffc7c2">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <!-- Link to custom font definitions -->
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
+          fontFamily: {
+            display: ['"Anybody Variable"', 'sans-serif'],
+            sans: ['"Söhne"', 'sans-serif'],
+            mono: ['"Söhne Mono"', 'monospace'],
+          },
+          fontSize: {
+            'display-hero': ['4.5rem', { lineHeight: '1.1' }],
+            'display-xl': ['3.75rem', { lineHeight: '1.15' }],
+            'h1': ['3rem', { lineHeight: '1.2' }],
+            'h2': ['2.25rem', { lineHeight: '1.25' }],
+            'h3': ['1.875rem', { lineHeight: '1.3' }],
+            'h4': ['1.5rem', { lineHeight: '1.4' }],
+            'h5': ['1.25rem', { lineHeight: '1.5' }],
+            'h6': ['1.125rem', { lineHeight: '1.6' }],
+            'body-lg': ['1.125rem', { lineHeight: '1.75' }],
+            'body': ['1rem', { lineHeight: '1.75' }],
+            'body-sm': ['0.875rem', { lineHeight: '1.6' }],
+            'caption': ['0.75rem', { lineHeight: '1.4' }],
+            'button': ['0.875rem', { lineHeight: '1.5', letterSpacing: '0.02em' }],
+            'code': ['0.875rem', { lineHeight: '1.5' }],
+          },
+          fontStyle: {
+             italic: 'italic',
+             normal: 'normal',
+           },
           colors: {
             peyya: {
               DEFAULT: '#ffc7c2',
@@ -50,14 +77,20 @@
   <script defer src="https://eu.umami.is/script.js" data-website-id="6b544a69-f57c-44e5-8e0c-5dbb1e945ede"></script>
 </head>
 
-<body class="font-sans antialiased bg-peyya-200 text-gray-900 min-h-screen flex flex-col">
-  <div class="bg-punch">
-    <header class="bg-punch">
+<body class="font-sans antialiased bg-peyya-300 text-gray-900 dark:bg-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
+  <div class="bg-punch dark:bg-gray-800">
+    <header class="bg-punch dark:bg-gray-800">
           <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
-              <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Punch</span>
-                <img class="h-8 w-auto" src="peyya-logotype.svg" alt="Punch Logo">
+              <a href="#" class="-m-1.5 p-1.5 flex items-center">
+                <span class="sr-only">Peyya</span>
+                <!-- Inline SVG Logo -->
+                <svg class="h-8 w-auto" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" baseProfile="tiny" version="1.2" viewBox="0 0 256 256">
+                  <path class="stroke-gray-900 dark:stroke-white" d="M38,78.5L128,29l90,49.5v99l-90,49.5-90-49.5v-99Z" fill="none" stroke-miterlimit="42.7" stroke-width="18"/>
+                  <path class="stroke-gray-900 dark:stroke-white" d="M128,128l90-49.5M128,128l-90-49.5M128,128v99M128,128l-90,49.5M128,128l90,49.5M128,128V29" fill="none" stroke-miterlimit="42.7" stroke-width="18"/>
+                </svg>
+                <!-- End Inline SVG Logo -->
+                <span class="ml-1 font-display text-h4 font-semibold text-gray-900 dark:text-white relative top-0.5">Peyya</span>
               </a>
             </div>
           </nav>
@@ -66,17 +99,17 @@
     <div class="relative isolate px-6 pt-14 lg:px-8">
       <div class="mx-auto max-w-2xl py-12 sm:py-24 lg:py-24">
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Ripping Up the Rulebook for B2B Payments</h1>
-          <p class="mt-6 sm:text-justify text-left text-lg leading-8 text-gray-900">SaaS, marketplaces, and media nailed payments ages ago—so why is B2B still stuck in the stone age? Construction, Logistics, Real Estate—you deserve better. <b>We’re tearing down the clunky systems, the delays, and the headaches.</b></p>
-          <p class="mt-6 sm:text-justify text-left text-lg leading-8 text-gray-900">Think AR/AP automation that <i>actually works</i>, escrow that’s <i>intelligent</i>, and project payments so smooth they feel like magic. Now add 24/7 availability, cross-border capabilities with zero friction, transactions so dirt cheap they’re almost funny, and programmable money ready to work the way <i>you</i> need — not the banks.
-            <p class="mt-6 sm:text text-left text-lg leading-8 text-gray-900">This isn’t evolution—it’s a revolution. <b>Stay tuned</b>.</p>
+          <h1 class="font-sans text-h1 tracking-tight text-gray-900 dark:text-white">
+            Ripping Up the Rulebook for B2B Payments
+          </h1>
+          <p class="mt-6 sm:text-justify text-left text-body text-gray-900 dark:text-gray-300">SaaS, marketplaces, and media nailed payments ages ago—so why is B2B still stuck in the stone age? Construction, Logistics, Real Estate—you deserve better. <b>We're tearing down the clunky systems, the delays, and the headaches.</b></p>
+          <p class="mt-6 sm:text-justify text-left text-body text-gray-900 dark:text-gray-300">Think AR/AP automation that <i>actually works</i>, escrow that's <i>intelligent</i>, and project payments so smooth they feel like magic. Now add 24/7 availability, cross-border capabilities with zero friction, transactions so dirt cheap they're almost funny, and programmable money ready to work the way <i>you</i> need — not the banks.
+            <p class="mt-6 sm:text text-left text-body text-gray-900 dark:text-gray-300">This isn't evolution—it's a revolution. <b>Stay tuned</b>.</p>
           </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <!-- Calendly https://calendly.com/0xpunch/45min link widget begin -->
-            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/0xpunch/discovery-call'});return false;" class="inline-block rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Ready to leave the stone age behind? Let’s talk.</a>
-            <!-- Calendly https://calendly.com/0xpunch/45min link widget end -->
+            <!-- Cal.com link -->
+            <a href="https://cal.com/danadalis" target="_blank" rel="noopener noreferrer" class="inline-block rounded-md bg-gray-900 px-3.5 py-2.5 font-sans text-button font-medium text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">Ready to leave the stone age behind? Let's talk.</a>
+            <!-- End Cal.com link -->
           </div>
         </div>
       </div>
