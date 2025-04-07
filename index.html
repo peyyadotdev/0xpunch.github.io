@@ -55,6 +55,9 @@
               700: '#99615c',
               800: '#66403d',
               900: '#33201f'            },
+            gray: {
+              900: 'oklch(0.138 0.002 263.38)'
+            }
           }
         }
       }
@@ -78,19 +81,18 @@
 </head>
 
 <body class="font-sans antialiased bg-peyya-300 text-gray-900 dark:bg-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
-  <div class="bg-punch dark:bg-gray-800">
-    <header class="bg-punch dark:bg-gray-800">
+  <div class="bg-punch dark:bg-gray-900">
+    <header class="bg-punch dark:bg-gray-900">
           <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
               <a href="#" class="-m-1.5 p-1.5 flex items-center">
                 <span class="sr-only">Peyya</span>
                 <!-- Inline SVG Logo -->
-                <svg class="h-8 w-auto" id="Peyya_Logo" xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 256 256">
+                <svg style="shape-rendering: crispEdges;" class="h-8 w-auto stroke-current text-gray-900 dark:text-white" id="Peyya_Logo" xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 256 256">
                 <g id="Light">
-                    <rect id="White_bg" width="256" height="256" fill="#fffFFF00"/>
                     <g id="Black_line">
-                    <path d="M50,85l78-43,78,43v86l-78,43-78-43v-86Z" fill="none" stroke="#000" stroke-miterlimit="42.7" stroke-width="18"/>
-                    <path d="M128,128l78-43M128,128l-78-43M128,128v86M128,128l-78,43M128,128l78,43M128,128V42" fill="none" stroke="#000" stroke-miterlimit="42.7" stroke-width="18"/>
+                      <path d="M50,85l78-43,78,43v86l-78,43-78-43v-86Z" fill="none" stroke-miterlimit="42.7" stroke-width="18"/>
+                      <path d="M128,128l78-43M128,128l-78-43M128,128v86M128,128l-78,43M128,128l78,43M128,128V42" fill="none" stroke-miterlimit="42.7" stroke-width="18"/>
                     </g>
                 </g>
                 </svg>
